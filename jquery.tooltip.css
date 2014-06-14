@@ -1,0 +1,16 @@
+/* jQuery Tooltip Plugin - Functional CSS */
+
+.tooltip-hint {
+	display: none; /* needed for click code, not for hover */
+	position: absolute; /* needed for jQuery UI Position */
+	
+}
+
+.tooltip-trigger {
+	position: relative; /* needed for jQuery UI Position */
+}
+
+
+.tooltip-hint.active {   /*needed for click code only, not for hover*/
+	display: block;
+}

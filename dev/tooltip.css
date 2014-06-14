@@ -1,0 +1,21 @@
+/* Tooltip CSS */
+
+.tooltip-hint {
+	display: none; /* needed for click code, not for hover */
+	font-size: 0.8em;
+	background-color: #FF0;
+	color: blue;
+	position: absolute; /* needed for jQuery UI Position */
+	
+}
+
+.tooltip-trigger {
+	position: relative; /* needed for jQuery UI Position */
+}
+
+
+/*needed for click code only, not for hover*/
+
+.tooltip-hint.active {   
+	display: block;
+}

@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Tooltip Plugin</title>
+		<link rel="stylesheet" href="jquery.tooltip.css" />
+		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script> 
+		<script src="jquery.tooltip.js"></script>
+	</head>
+
+	</body>
+		<!-- tooltip anchor -->
+		<h1 data-tooltip="tip-1">Unicorns &amp; Goblins</h1>
+		<!-- tooltip hint -->
+		<p id="tip-1">In as calm, but rapid a manner as possible, I gave her to understand the whole case.</p>
+
+		<!-- tooltip anchor -->
+		<h1 data-tooltip="tip-2">Whosits &amp; Whatsits</h1>
+		<!-- tooltip hint -->
+		<p id="tip-2">But there was no time for shuddering, for now the savage went about something that completely fascinated my attention, and convinced me that he must indeed be a heathen.</p>
+		
+		<script>
+			$(function () {
+				$('[data-tooltip]').tooltip();
+			})
+		</script>
+	</body>
+</html>
